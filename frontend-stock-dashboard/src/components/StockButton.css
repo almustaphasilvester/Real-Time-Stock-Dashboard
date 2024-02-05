@@ -1,0 +1,38 @@
+button {
+  flex-basis: 5%;
+  border-radius: 15px;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+}
+
+.button:hover {
+  border: 1%;
+  background-color: #faf0ca;
+}
+
+.button:hover h2 {
+  color: black;
+}
+
+.button-active {
+  background-color: white;
+}
+
+.button h2 {
+  color: white;
+}
+
+.button-active h2 {
+  color: black;
+}
+
+h2 {
+  font-family: "Georgia";
+}
