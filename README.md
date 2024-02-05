@@ -21,6 +21,14 @@ Change into the project's directory:
 ```
 cd your-repository
 ```
+Install dependencies for both the backend and frontend:
+```
+cd express-backend
+npm install
+
+cd ../frontend-stock-dashboard
+npm install
+```
 No additional installation steps are required as the project already includes the necessary dependencies. Simply proceed to the [Running the Application](#running-the-application) section.
 
 ## Project Structure
